@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}   
+.nav-bar{
+    height: 45px;
+    background-color: #131921;
+    color: #ffffff; 
+    display: flex;
+    align-items: center;  
+    justify-content: space-evenly;
+}
+
+/* box1 */
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    margin-top:3px ;
+    width: 90px;
+    background-image: url(./images/amazon_logo.png);
+    background-size: cover;
+    height: 40px;
+    cursor: pointer;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border-color: #ffffff;
+}
+
+/* box2 */
+
+.add-icon{
+    display: flex;
+    align-items: center;
+    width: 48px;
+    margin: 0px 8px;
+}
+.add-deliver{
+    color: #cccccc;
+    font-size: 0.6rem;
+    margin-left:20px ;
+}
+.nav-address{
+    margin-top: 2px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 2px;
+    height: 30px;
+    cursor: pointer;
+}
+.add-india{
+    margin-left: 3px;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+
+/* box3 */
+
+.nav-search{
+    background-color: #cccccc;
+    margin-left: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 32px;
+    width: 715px;
+    border-radius: 3px;
+}
+.nav-search:hover{
+    border: 2px solid #febd69;
+}
+.search-select{
+    color: #0f1111;
+    background-color: #f3f3f3;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size: 0.6rem;
+    padding-left: 5px;
+    padding-right: 3px;
+    cursor: pointer;
+}
+.search-input{
+    font-size: 0.75rem;
+    width: 100%;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+#search-logo{
+    border-bottom-right-radius:3px ;
+    border-top-right-radius:3px ;
+    color: #131921;
+    background-color: #febd69;
+    display: flex;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+ /* box4  */
+
+.nav-signin{
+    cursor: pointer;
+}
+.nav-order{
+    cursor: pointer;
+}
+span{
+    font-size: 0.6rem;
+}
+.nav-second{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* box3 */
+
+.nav-cart{
+    width: 65px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#cart-logo{
+    font-size: 1.8rem;
+}
+
+/* panel */
+
+.panel{
+    padding-left: 11px;
+    color: #ffffff;
+    background-color: #232f3e;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+/* box1 */
+
+
+.panel-all{
+    width: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all{
+    padding-top: 8px;
+    height: 25px;
+    margin-left: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.opts{
+    display: inline;
+    height: 28px;
+    text-align: center;
+    margin-left: 5px;
+    font-size:0.85rem;
+    cursor: pointer;
+}
+
+/* next section */
+
+.hero-section{
+    background-image: url(./images/hero_image.jpg);
+    background-size: cover;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    cursor: pointer;
+}
+.hero-msg{
+    font-size: .74rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: black;
+    height: 30px;
+    width: 97%;
+    margin-bottom: 20px;
+}
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+.hero-msg a:hover{
+    text-decoration: underline;
+    color: lightcoral;
+}
+
+/* shop-section */
+
+.shop-section{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #bbe3b4;
+}
+.box{
+    margin-top: 10px;
+    background-color: #ffffff;
+    height: 300px;
+    width: 23%;
+    padding: 10px 0px 5px;
+}
+.box-img{
+    height: 225px;
+    background-size : cover ;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 13px;
+}   
+.box-content a{
+   color: #007185 ;
+   text-decoration: none;
+}
+.box-content a:hover{
+    color: #febd69;
+}
+
+/* footer */
+
+footer{
+    border-top: 15px solid #bbe3b4;
+}
+.foot-panel{
+    background-color: #37475a;
+    color: #f3f3f3;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #232f3e;
+    display: flex;
+    justify-content: space-around;
+    color: #dddddd;
+    height: 300px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+.foot-panel2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul{
+    margin-top: 20px;
+}
+.foot-panel2 p{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 13px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:  #dddddd;
+    cursor: pointer;
+    font-size: 11px;
+}
+.foot-panel3{
+    height: 68px;
+    background-color: #232f3e ;
+    color: #ffffff;
+    border-top: 0.25px solid #989898;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel4{
+    background-color: #131921;
+    color: #ffffff;
+    height: 330px;
+    text-align: center;
+    font-size: 10px;
+}
+.pages{
+    padding-top: 25px;
+}
+.pages a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.copyright{
+    padding-top: 5px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ftpanel-button{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 11px;
+    border: 1px solid white;
+    width: 110px;
+    margin-left: 6px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.foot-grid{
+    padding-top: 30px;
+    display: grid;
+    grid-template-rows: repeat(2,100px) ;
+    grid-template-columns: repeat(7,100px) ;
+    text-align: start;
+    margin-left: 260px;
+    color: #cccccc;
+    grid-column-gap: 15px ;
+    margin-bottom: 20px;
+}
+
+.foot-grid span{
+    color: #b3b3b3;
+    font-weight: 550;
+}
+
+.foot-grid p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
